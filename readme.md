@@ -12,6 +12,7 @@
     - [Langkah Ketiga](#langkah-ketiga)
     - [Langkah Keempat](#langkah-keempat)
     - [Langkah Kelima](#langkah-kelima)
+1. [Additional - Environment Variable](#additional---environment-variable)
 1. [References](#references)
 
 ## Prerequisites
@@ -347,6 +348,30 @@ export default {
 };
 </script>
 ```
+
+## Additional - Environment Variable
+Dalam pengembangan aplikasi kita, tentunya tidak asing mendengar kata kata `environment variable`  
+bukan? Bagaimana bila seandainya kita ingin menggunakan `environment variable` dalam pengembangan  
+aplikasi dengan Vue CLI ini?
+
+Kebetulan sekali Vue CLI juga sudah menerapkan penggunaan `dotenv` ini dengan baik dengan beberapa  
+cara penggunaan:
+
+Berikut adalah informasi tentang `dotenv` yang dikutip dari situs vue cli:
+```
+.env                # loaded in all cases
+.env.local          # loaded in all cases, ignored by git
+.env.[mode]         # only loaded in specified mode
+.env.[mode].local   # only loaded in specified mode, ignored by git
+```
+
+dan di sini ada sedikit syarat dan ketentuan penggunaan:
+- Variable yang akan dibuild hanyalah variable dengan nama `NODE_ENV` dan `BASE_URL` saja
+- Variable lainnya yang ingin ikut untuk dibuild harus diikuti dengan prefix `VUE_APP_`
+
+Jadi pastikan ketika mendefinisikan environment variable, pastikan ada prefix `VUE_APP_` yah !
+
+(Tentang environment variable ini tidak dicontohkan, silahkan dicoba untuk eksplorasi sendiri yah !)
 
 ## References
 

@@ -1,3 +1,19 @@
+## Table of Content
+1. [Prerequisites](#prerequisites)
+1. [Introduction Vue CLI](#introduction-vue-cli)
+1. [Installation](#installation)
+1. [Generate Project](#generate-project)
+1. [Folder Structure](#folder-structure)
+1. [Adding Plugin](#adding-plugin)
+1. [Vue Router - Introduction](#vue-router---introduction)
+1. [Review Vue Component](#review-vue-component)
+    - [Langkah Pertama](#langkah-pertama)
+    - [Langkah Kedua](#langkah-kedua)
+    - [Langkah Ketiga](#langkah-ketiga)
+    - [Langkah Keempat](#langkah-keempat)
+    - [Langkah Kelima](#langkah-kelima)
+1. [References](#references)
+
 ## Prerequisites
 
 Prerequisites:
@@ -5,7 +21,7 @@ Prerequisites:
 - Mengerti konsep dasar dari Single Page Application
 - Mengerti dasar dari VueJS
 
-## Introduction
+## Introduction Vue CLI
 Pada pembelajaran kali ini kita akan mencoba untuk menggunakan `vue-cli`, sebuah project generator  
 yang akan membuat boilerplate project secara otomatis.
 

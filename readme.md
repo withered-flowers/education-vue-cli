@@ -69,10 +69,10 @@ Kemudian kita akan melihat struktur folder dari file yang sudah dibuat `vue cli`
 Folder `public` berisi folder umum yang digunakan (favicon.ico dan index.html)
 Folder `src` berisi source code yang dibuat + assets yang ada
 
-.browserlintrc -> File konfigurasi, detil bisa dilihat pada browserlist github
-.eslintrc -> File untuk linter (formatter dan checker), detil bisa dilihat pada situs eslint
-.gitignore -> file sejuta umat pengguna git
-babel.config.js -> File untuk transpiler javascript, detil bisa dilihat pada situs babel
+- .browserlintrc -> File konfigurasi, detil bisa dilihat pada browserlist github
+- .eslintrc -> File untuk linter (formatter dan checker), detil bisa dilihat pada situs eslint
+- .gitignore -> file sejuta umat pengguna git
+- babel.config.js -> File untuk transpiler javascript, detil bisa dilihat pada situs babel
 
 ## Adding Plugin
 
